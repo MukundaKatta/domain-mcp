@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.MukundaKatta/domain",
+  "description": "MCP server: extract eTLD, eTLD+1, subdomain from a domain name using the Public Suffix List.",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/MukundaKatta/domain-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://github.com/MukundaKatta/domain-mcp",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@mukundakatta/domain-mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
