@@ -42,3 +42,13 @@ Accepts a bare domain or a full URL. IPs are flagged via `is_ip`.
 ## License
 
 MIT.
+
+## Repository Health
+
+This repository includes a dependency-free health check for core documentation, metadata, and CI wiring. Run it locally before publishing changes:
+
+```sh
+python3 scripts/check_repository_health.py
+```
+
+The same check runs in GitHub Actions on pushes and pull requests.
